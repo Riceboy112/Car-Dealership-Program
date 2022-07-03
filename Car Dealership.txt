@@ -1,0 +1,36 @@
+Name: Nicholas Kong 
+ID: 105737913
+Class: CSCI 1410
+Due Date: April 3, 2017 
+
+Structure of program:
+---------------------
+Functional organization: Car dealership program that allows users to update/add/delete a vehicle from the inventory. The user will be able to save the dealership inventory to a file. The file can also be access and its content can be updated as needed. 
+
+Status: It works completely
+
+Hardware & Platform I used: 2.7 GHz Intel Core i5 processor with 8GB 1867 MHz DDR3 Memory.
+Version 10.12.5
+
+
+*******************************************************
+*  Source files
+*******************************************************
+
+Name: main.cpp
+	Main will have the menu that is displayed to the user. User is able to select any option from the menu and will call the correct corresponding function to the option that is picked. 
+
+Name: vehicle.cpp
+	Contains the getters snd setter functions for the car’s year, make, model, price and VIN. 
+
+Name: vehicle.h
+	Assigns a private specifier to the specific data types for the car’s information. Assigns a public specifier when data is set or retrieved. 
+
+Name: functions.h
+	Handles the correct corresponding function calls from main.cpp. If user selects a specific option from the menu, main.cpp will call the correct function from functions.h
+
+*******************************************************
+*  Circumstances of programs
+*******************************************************
+
+The program was developed and tested on gnu g++ 4.4.2.  It was compiled, run, and tested on gcc ouray.cudenver.edu.
